@@ -1,8 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
 #include <time.h>
 #include <unistd.h>
 
 int main(){
   int i,j,r,total;
+  char user_name[20];
+
+  printf("What is your name\n");
+  scanf("%s",user_name);
+  printf("Hello %s!\n",user_name);
   
   printf("Rolling dice...\n");
   for(i=1;i<2;i++){
