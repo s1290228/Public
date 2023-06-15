@@ -21,8 +21,6 @@ int main(){
       total += r;
     }
     printf("Total value: %d\n",total);
-    if(total>=7) printf("%s won!\n",user_name);
-    else printf("%s lost....\n",user_name);
     sleep(1);
   }
   return 0;
